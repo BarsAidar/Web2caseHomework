@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <title>WebSite</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   
+    <div class="hero">
+        <div class="navbar">
+           
+            <img src="img/test.png" class="logo">
+            
+        </div>
+        <div class="content">
+            <form  action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8&orgId=00D7Q00000D28H0" method="POST">
+    
+                <input type=hidden name="orgid" value="00D7Q00000D28H0">
+                <input type=hidden name="retURL" value="http://">
+                
+                <!--  ----------------------------------------------------------------------  -->
+                <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+                <!--  these lines if you wish to test in debug mode.                          -->
+                <!--  <input type="hidden" name="debug" value=1>                              -->
+                <!--  <input type="hidden" name="debugEmail" value="barsaidarov@gmail.com">   -->
+                <!--  ----------------------------------------------------------------------  -->
+                
+                <label for="name">Contact Name</label> 
+                
+                <input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+                
+                <label   for="email">Email</label>
+                
+                <input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                
+                <label    for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+                
+                <label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+                <label class="company" for="company">Company</label><input  id="company" maxlength="80" name="company" size="20" type="text" /><br>
+                <label  for="type">Type</label><select  id="type" name="type" ><option value="">--None--</option><option value="Mechanical">Mechanical</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Electronic">Electronic</option>
+                <option value="Structural">Structural</option>
+                <option value="Other">Other</option>
+                </select>
+                
+                <br>
+                
+                <input class="submit" type="submit" name="submit">
+                
+                </form>
+           
+          
+        
+       
+    </div> <div class="bubbles">
+            <img src="img/bubble.png">
+            <img src="img/bubble.png">
+            <img src="img/bubble.png">
+            <img src="img/bubble.png">
+            <img src="img/bubble.png">
+            <img src="img/bubble.png">
+            <img src="img/bubble.png">
+        </div>
+</body>
+</html>
